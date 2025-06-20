@@ -105,6 +105,7 @@ def main():
             categorywiseanalysis(expenses)
         elif choice == '4':
             piechart(expenses)
+            continue
         elif choice == '5':
             print("Exiting Expense Tracker. Goodbye!")
             break
